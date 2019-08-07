@@ -1,0 +1,16 @@
+.clr {
+    margin-top: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #726F6F;
+    color: #000000;
+    flex: 1;
+    border-radius: 20px;
+}
+.clr:hover {
+    background-color: #FFFFFF;
+}

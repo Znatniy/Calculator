@@ -1,0 +1,21 @@
+.button-box {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #E0E1E6;
+    color: #000000;
+    flex: 1;
+    border-radius: 40%;
+    margin: 3px;
+}
+.button-box:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+.operator {
+    background-color: #FF9600;
+    color: #ffffff;
+}

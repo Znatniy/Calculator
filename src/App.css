@@ -1,33 +1,32 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap');
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.application {
+  margin-top: 10px;
+  margin-left: 80px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Saira Stencil One', cursive;
 }
-
-.App-link {
-  color: #61dafb;
+.calculator {
+  width: 400px;
+  height: 500px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.calc-row:last-child {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.calc-row {
+  display: flex;
+  background-color: #000000;
+  box-shadow: 10px 10px 20px #000000;
+}
+.about {
+  display: flex;
+  color: #000000;
+  justify-content: flex-end;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
 }
